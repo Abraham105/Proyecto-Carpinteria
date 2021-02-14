@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins" , sans-serif;
+}
+
+body{
+
+	min-height: 200vh;
+	background-color: #999996 ;
+
+}
+
+
+header{
+
+	top: 0;
+	position: sticky;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: 0.6s;
+	padding: 40px 100px;
+	z-index: 100000;
+
+}
+
+header.sticky{
+
+	padding: 5px 100px;
+	background: rgba(255,255,255,0.7);
+	border-bottom-left-radius: 30%;
+	border-bottom-right-radius: 30%;
+}
+
+header .logo{
+
+	position: relative;
+	font-weight: 700;
+	color: #fff;
+	text-decoration: none;
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition: 0.6s;
+
+}
+header .logo2{
+
+	position: absolute;
+	color: #fff;
+	margin-top: 55px;
+	margin-left: -45px;
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-family: italic;
+
+}
+
+header ul{
+
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+header ul li{
+
+
+	position: relative;
+	list-style: none;
+}
+
+header ul li a{
+
+	position: relative;
+	margin: 0 15px;
+	text-decoration: none;
+	color: #FFF;
+	letter-spacing: 2px;
+	font-weight: 500px;
+	transition: 0.6s;
+	font-weight: bold;
+}
+.banner {
+
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: url(6.jpg) no-repeat;
+	background-position: center;
+	
+}
+
+header.sticky .logo{
+
+	color: #000;
+}
+
+header.sticky .logo2{
+
+	color: transparent;
+}
+
+header.sticky ul li a{
+
+	color: #000;
+
+}
+

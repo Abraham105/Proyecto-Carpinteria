@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+.contenedor{
+
+	padding: 0 0 20px 20px;
+	margin: 10px 0 0 0;
+	
+}
+
+.mueblesDeCocina img {
+
+	border-radius: 20px;
+
+}
+
+.difuminado{
+
+	position: absolute;
+	display: block;
+	width: 50.5%;
+	height: 80.1%;
+	background: linear-gradient(130deg , rgba(255,255,255),10%, rgb(153, 153, 150) );
+	left: 940px;
+
+}
+
+.difuminado h1{
+
+	font-size: 5em;
+	padding: 20px 0 0 90px; 
+	color: #FFF;
+	
+}
+
+.difuminado h2{
+
+	font-size: 3em;
+	padding: 40px 0 0 100px; 
+	color: #FFF;
+
+}
+
+.difuminado p{
+
+
+	font-size: 2em;
+	padding: 40px 0 0 110px; 
+	color: #FFF;
+
+
+}
+
+.difuminado footer{
+
+	font-size: 4em;
+	padding: 50px 0 0 120px; 
+	color: #FFF;
+}
+
+.difuminado a{
+
+	
+	color: #fff;
+	font-size: 3em;
+	font-weight: bold;
+	padding: 0 0 0 300px; 
+	top: 100px;
+	position: relative;
+}
